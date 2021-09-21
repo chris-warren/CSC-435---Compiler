@@ -1,0 +1,11 @@
+int foo (char x) {}
+
+float bar (string x) {}
+
+char baz (boolean x{}) {}
+
+string bar (void x) {}
+
+boolean bar (int x) {}
+
+void bar (float x) {}

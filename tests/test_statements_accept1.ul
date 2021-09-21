@@ -1,0 +1,34 @@
+void bar (float x, int y) {
+    int a;
+    char[1] test;
+    ;
+    test;
+    if ( test ){
+        if(x<5){
+            if(c+1){
+                
+            }
+        }
+        test;
+        }
+    if ( test ) {
+        test;
+        } else {
+            test;
+        }
+    while ( test ) {test;}
+    while ( test ) {}
+    print(test);
+    println(test);
+    test[test];
+    return test;
+    test = test;
+    test = 1;
+    test = "test";
+    test [ 1 ] = "test";
+    test = false;
+    test = true;
+    test = 3.0;
+    test = 'a';
+    test[test] = test;
+}

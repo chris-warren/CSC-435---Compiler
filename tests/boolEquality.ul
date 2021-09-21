@@ -1,0 +1,18 @@
+void main(){
+    bar();
+}
+
+
+
+void bar(){
+    if(false == false){ 
+        print "bool equality is ";
+    }else{
+        println "wrong if";
+    }
+    if(false == true){
+        println "not working";
+    }else{
+        println "working";
+    }
+}

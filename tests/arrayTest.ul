@@ -1,0 +1,6 @@
+void main()
+{
+    string[1] a;
+    a[0] = "arrays are working";
+    println a[0];
+}

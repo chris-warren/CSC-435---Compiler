@@ -1,0 +1,24 @@
+void main()
+{
+    println "if else test file";
+    foo();
+}
+
+void foo()
+{
+    if (true)
+    {
+        println "first if working";
+        if(false){
+            println "second if not working";
+        }
+        else
+        {
+            println "second if working";
+        }
+    }
+    else
+    {
+        println "first if not working";
+    }
+}

@@ -1,0 +1,12 @@
+void bar (float x, int y) {
+    ;;
+    test;
+    if ( test ){}
+    if ( test ) {} else {} else{}
+    while ( test ) {}
+    print (test) ;
+    println(test);
+    return;
+    test = test;
+    test[ test ] = test;
+}

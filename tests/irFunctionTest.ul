@@ -1,0 +1,18 @@
+void main()
+{
+    string s;
+    string a;
+    string b;
+    string c;
+    a = "multiple ";
+    b = "parameters ";
+    c = "are working";
+    foo(a, b, c);
+}
+
+void foo(string a, string b, string c)
+{
+    print a;
+    print b;
+    println c;
+}

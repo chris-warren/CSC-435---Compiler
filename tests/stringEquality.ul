@@ -1,0 +1,17 @@
+void main()
+{
+    foo();
+}
+
+void foo(){
+    if("aa" == "aa"){ 
+        print "string equality is ";
+    }else{
+        println "wrong if";
+    }
+    if("aa" == "bb"){
+        println "not working";
+    }else{
+        println "working";
+    }
+}

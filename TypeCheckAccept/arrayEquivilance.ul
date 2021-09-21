@@ -1,0 +1,7 @@
+//this might not be right come back to check
+
+void main(){
+    int[2] a;
+    int[2] b;
+    a[1]+b[1];
+}

@@ -1,0 +1,28 @@
+void main(){
+    int x;
+    int t;
+    
+    if(true){
+
+    }
+
+    if(false){
+
+    }else{
+
+    }
+    while(x<t){
+
+    }
+    print 1;
+    print 1.0;
+    print 'c';
+    print "test";
+    print true;
+
+    println 1;
+    println 1.0;
+    println 'c';
+    println "test";
+    println true;
+}

@@ -1,0 +1,15 @@
+void bar (float x, int y) {
+    int a
+    float b;
+    char c;
+    string d;
+    boolean e;
+    void f; 
+
+    int[1] a;
+    float[2] b;
+    char[3] c;
+    string[4] d;
+    boolean[5] e;
+    void[oops] f; 
+}

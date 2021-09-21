@@ -1,0 +1,7 @@
+void main(){
+    foo("test");
+}
+
+int foo(int a){
+    return 1;
+}

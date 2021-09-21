@@ -1,0 +1,41 @@
+PROG ifelsetest
+FUNC main ()V
+{
+	TEMP 0:U;
+		T0 := "if else test file";
+		PRINTLNU T0;
+		CALL foo();
+		RETURN;
+}
+FUNC foo ()V
+{
+	TEMP 0:Z;
+	TEMP 1:Z;
+	TEMP 2:U;
+	TEMP 3:Z;
+	TEMP 4:Z;
+	TEMP 5:U;
+	TEMP 6:U;
+	TEMP 7:U;
+		T0 := TRUE;
+		T1 := Z! T0;
+		IF T1 GOTO L0;
+		T2 := "first if working";
+		PRINTLNU T2;
+		T3 := FALSE;
+		T4 := Z! T3;
+		IF T4 GOTO L2;
+		T5 := "second if not working";
+		PRINTLNU T5;
+		GOTO L3;
+L2:;
+		T6 := "second if working";
+		PRINTLNU T6;
+L3:;
+		GOTO L1;
+L0:;
+		T7 := "first if not working";
+		PRINTLNU T7;
+L1:;
+		RETURN;
+}

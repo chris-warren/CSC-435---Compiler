@@ -1,0 +1,10 @@
+PROG printingString
+FUNC main ()V
+{
+	TEMP 0:U;
+	TEMP 1:U;
+		T1 := "test string";
+		T0 := T1;
+		PRINTLNU T0;
+		RETURN;
+}

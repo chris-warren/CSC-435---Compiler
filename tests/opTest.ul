@@ -1,0 +1,74 @@
+void main(){
+    foo();
+    bar();
+}
+
+void foo(){
+    int x;
+    x = 3 * 3;
+    if(x == 9){
+        println "int mult working";
+    }else{
+        println "int mult NOT working";
+    }
+
+    x = 2 + 3;
+    if(x == 5){
+        println "int add working";
+    }else{
+        println "int add NOT working";
+    }
+    x = 5 - 4;
+    if(x == 1){
+        println "int sub working";
+    }else{
+        println "int sub NOT working";
+    }
+
+    if(x < 2){
+        println "int less than working";
+    }else{
+        println "int less than NOT working";
+    }
+
+}
+
+void bar(){
+    float x;
+    x = 3.0 * 3.0;
+    if(x == 9.0){
+        println "float mult working";
+    }else{
+        println "float mult NOT working";
+    }
+
+    x = 2.5 + 3.0;
+    if(x == 5.5){
+        println "float add working";
+    }else{
+        println "float add NOT working";
+    }
+
+    x = 5.0 - 4.0;
+    if(x == 1.0){
+        println "float sub working";
+    }else{
+        println "float sub NOT working";
+    }
+
+    if(x < 2.0){
+        println "float less than working";
+    }else{
+        println "float less than NOT working";
+    }
+}
+
+void baz(){
+    char x;
+    x = 'a';
+    if(x < 'b'){
+        println "char less than working";
+    }else{
+        println "char less than NOT working";
+    }
+}

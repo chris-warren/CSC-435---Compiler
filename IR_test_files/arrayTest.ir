@@ -1,0 +1,17 @@
+PROG arrayTest
+FUNC main ()V
+{
+	TEMP 0:AU;
+	TEMP 1:I;
+	TEMP 2:U;
+	TEMP 3:I;
+	TEMP 4:U;
+		T0 := NEWARRAY U 1;
+		T1 := 0;
+		T2 := "arrays are working";
+		T0[T1] := T2;
+		T3 := 0;
+		T4 := T0[T3];
+		PRINTLNU T4;
+		RETURN;
+}

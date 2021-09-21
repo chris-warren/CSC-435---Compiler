@@ -1,0 +1,111 @@
+void main()
+{
+    boolean a;
+    int[1] b;
+    int[1] c;
+    b[0] = 1;
+    c[0] = 2; 
+    print "int math test should be 15 result: ";
+    println foo(10);
+
+    print "float math test should be 15.0 result: ";
+    println bar(10.0);
+
+    print "char test result: ";
+    println baz('c');
+
+    print "bool test result: ";
+    a = qux(false);
+    if(a){
+        println "booleans are working";
+    }
+    if(a){
+        
+    }else{
+        println "booleans are not working";
+    }
+
+    if(true){
+        println "if statements are working";
+    }   
+    quux();
+
+    print "array as params should be 3 result: ";
+    quo(b, c);
+
+
+    
+
+    
+}
+
+int foo(int n)
+{
+    int x;
+    int y;
+    int z;
+    int[2] arr;
+    arr[0] = 1;
+    x = 2;
+    y = 3;
+    z = n + x * y - arr[0];
+    return z;
+}
+
+float bar(float n)
+{
+    float x;
+    float y;
+    float z;
+    float[2] arr;
+    arr[0] = 1.0;
+    x = 2.0;
+    y = 3.0;
+    z = n + x * y - 1.0;
+    return z;
+}
+
+char baz(char n)
+{
+    char[2] arr;
+    string y;
+    arr[0] = 'g';
+    y = "hars are workin";
+    print n;
+    print y;
+    return arr[0];
+}
+
+boolean qux(boolean n)
+{
+    boolean x;
+    boolean y;
+    y = false;
+    x = true;
+    if(n){
+        println "booleans are not working";
+        return y;
+    }else{
+        return x;
+    }
+    return y;
+}
+
+void quux()
+{
+    int b;
+    print "while test result should be 5 result: ";
+
+    b = 0;
+    while(b < 5){
+        b = b + 1;
+    }
+    println b;
+}
+
+void quo(int[1] a, int[1] b)
+{
+    int c;
+    c = a[0] + b[0];
+    println c;
+}

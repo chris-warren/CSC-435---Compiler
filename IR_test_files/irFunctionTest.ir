@@ -1,0 +1,29 @@
+PROG irFunctionTest
+FUNC main ()V
+{
+	TEMP 0:U;
+	TEMP 1:U;
+	TEMP 2:U;
+	TEMP 3:U;
+	TEMP 4:U;
+	TEMP 5:U;
+	TEMP 6:U;
+		T4 := "multiple ";
+		T1 := T4;
+		T5 := "parameters ";
+		T2 := T5;
+		T6 := "are working";
+		T3 := T6;
+		CALL foo(T1 T2 T3);
+		RETURN;
+}
+FUNC foo (UUU)V
+{
+	TEMP 0:U;
+	TEMP 1:U;
+	TEMP 2:U;
+		PRINTU T0;
+		PRINTU T1;
+		PRINTLNU T2;
+		RETURN;
+}

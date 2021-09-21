@@ -1,0 +1,7 @@
+PROG test1
+FUNC main ()V
+{
+	TEMP 0:U;
+		T0 := "testing";
+		PRINTU T0;
+}

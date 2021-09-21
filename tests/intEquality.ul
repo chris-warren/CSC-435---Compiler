@@ -1,0 +1,18 @@
+void main(){
+    bar();
+}
+
+
+
+void bar(){
+    if(5 == 5){ 
+        print "int equality is ";
+    }else{
+        println "wrong if";
+    }
+    if(0 == 1){
+        println "not working";
+    }else{
+        println "working";
+    }
+}
